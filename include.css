@@ -1,0 +1,82 @@
+body{
+    height: 100hv;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://c.ndtvimg.com/2019-04/2oc84lcg_david-warner-ipl-bye-afp_625x300_30_April_19.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+form{
+    width:30rem;
+    height:35rem;
+    display:flex;
+    flex-direction:column;
+    background-color: rgba(216, 182, 182, 0.842);
+    box-shadow:0 7px 35px 0 rgba gray;
+    border-radius: 30px;
+    border-left: 35px;
+    border-top:2px solid rgba orange;
+
+}
+label{
+    font-size:25px;
+    color:black;
+    margin-left:10%;
+    opacity:.10;
+    text-shadow:2px 2px 4px rgba(skyblue);
+
+}
+input{
+    width:80%;
+    margin:5% 7%;
+    margin-bottom: 8%;
+    border:none;
+    outline: none;
+    border-bottom:1px solid rgba(255,255,255,0.6);
+    opacity:0.5
+
+}
+button{
+     width:50%;
+     margin:3% auto;
+     color:rgba(0, 0, 0, 0.952);
+     font-size:15px;
+     opacity: .7;
+     background-color: rgba(255, 136, 0, 0.918);
+     padding: 10px 30px;
+     border:none;
+     outline:none;
+     border-radius:20px;
+
+}
+a{
+     font-size:12px;
+     text-align:center;
+     color:black;
+     opacity: .7;
+
+}
+h1{
+     font-size:12px;
+     text-align:center;
+     color:aqua;
+     opacity: .8;
+     text-shadow:2px 2px 4px rgba(0,0,.2);
+
+}
+.b1{
+    width: 25rem;
+height:20 rem;
+display:flex;
+flex-direction:column;
+background:rgba(255,255,255,0.06);
+box-shadow:0 8px 32px 0 rgba(31,38,135,.37);
+border-radius: 30px;
+border-left:30px;
+border-left:1px solid rgba(255,255,255,.3);
+border-top:1px solid rgba(255,255,255,.3);
+}
